@@ -1,62 +1,43 @@
-.diamond {
-    width: 90px;
-    height: 90px;
-    background: #1eff00;
-    margin: 0;
-    padding: 0;
-/* Rotate */
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-/* Rotate Origin */
-    -webkit-transform-origin: 0 100%;
-    -moz-transform-origin: 0 100%;
-    -ms-transform-origin: 0 100%;
-    -o-transform-origin: 0 100%;
-    transform-origin: 0 100%;
-    margin: 60px 0 10px 310px;
+body {
+	background-image: url("../images/background.jpeg");
+	margin: 0px;
+	padding: 0px;
 }
 
-#red {
-    color: #fff;
-    background-color: #d9534f;
-    border-color: #d9534f;
-}
-#blue {
-    color: #fff;
-    background-color: #5bc0de;
-    border-color: #5bc0de;
-}
-#yellow {
-    color: #fff;
-    background-color: #f0ad4e;
-    border-color: #f0ad4e;
-}
-#green {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #5cb85c;
+.jumbotron {
+	background-color: greenyellow;
+	color: blueviolet;
 }
 
-#red {
-    color: #fff;
-    background-color: #d9534f;
-    border-color: #d9534f;
+.target-number {
+	font-size: 30px;
+	background-color: yellow;
+	border-style: solid;
+	border-color: #ddd;
+	border-width: 4px;
 }
-#blue {
-    color: #fff;
-    background-color: #5bc0de;
-    border-color: #5bc0de;
+
+.win-lose-counter {
+	background-color: rebeccapurple;
+	border-style: solid;
+	border-color: #ddd;
+    border-width: 4px;
+    font-weight: bold;
 }
-#yellow {
-    color: #fff;
-    background-color: #f0ad4e;
-    border-color: #f0ad4e;
+
+.crystal-images {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-#green {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #5cb85c;
+
+.total-score {
+	color: black;
+    background-color: gold;
+    font-weight: bold;
+}
+
+.score-number {
+	color: white;
+	background-color: #4aaaa5;
+	font-size: 30px;
 }
